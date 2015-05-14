@@ -1,0 +1,4 @@
+vendor/
+.env
+blocked-numbers.txt
+allowed-numbers.txt

@@ -1,0 +1,21 @@
+{
+    "name": "sbine/operator",
+    "description": "Operator for Twilio",
+    "license": "MIT",
+    "require": {
+        "twilio/sdk": "4.1.*",
+        "katzgrau/klogger": "dev-master",
+        "vlucas/phpdotenv": "^1.1"
+    },
+    "authors": [
+        {
+            "name": "Sara Bine",
+            "email": "sara@sarabine.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Bine\\Operator\\": "src"
+        }
+    }
+}
