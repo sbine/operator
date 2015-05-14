@@ -6,8 +6,8 @@ See [example/operator.php](example/operator.php) for a sample webhook script to 
 See [.env.example](.env.example) for configuration options (at minimum you will need `FORWARD_NUMBER` and `TWILIO_AUTH_TOKEN`)
 
 ## Logic
-If a whitelist file is present and not empty, all non-whitelisted numbers will be rejected.  
-If a blacklist file is present and not empty, all blacklisted numbers will be rejected.
+If a whitelist file is present in the root directory and not empty, all non-whitelisted numbers will be rejected.  
+If a blacklist file is present in the root directory and not empty, all blacklisted numbers will be rejected.
 
 ## Logging
 This library will attempt to log all activity to /var/log/twilio.log
