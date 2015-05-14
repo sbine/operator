@@ -2,8 +2,8 @@
 
 A small library I made to blacklist solicitors and forward all other Twilio calls to my cell. It also has whitelist capability, because why not!
 
-See `example/operator.php` for a sample webhook script to use in your TwiML app.  
-See `.env.example` for configuration options (at minimum you will need `FORWARD_NUMBER` and `TWILIO_AUTH_TOKEN`)
+See [example/operator.php](example/operator.php) for a sample webhook script to use in your TwiML app.  
+See [.env.example](.env.example) for configuration options (at minimum you will need `FORWARD_NUMBER` and `TWILIO_AUTH_TOKEN`)
 
 ## Logic
 If a whitelist file is present and not empty, all non-whitelisted numbers will be rejected.  
