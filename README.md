@@ -15,3 +15,6 @@ This library will attempt to log all activity to /var/log/twilio.log
 ### Inspiration
 - BradyOsborne's [Twilio-Block-Numbers](https://github.com/BradyOsborne/Twilio-Block-Numbers)  
 - Twilio's [Forward Twimlet](https://www.twilio.com/labs/twimlets/forward)
+
+### License
+This library is licensed under the [MIT License](http://opensource.org/licenses/MIT).
